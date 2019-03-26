@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%    phase1-GO.tex  (use only for General Observer and Snapshot proposals; use phase1-AR.tex for Archival Research and
+%                      Theory proposals use phase1-DD.tex for GO/DD proposals and use phase1-MC.tex for GO/MC rapid response
+%                       proposals).
+%
+%    HUBBLE SPACE TELESCOPE
+%    PHASE I OBSERVING PROPOSAL TEMPLATE 
+%     FOR CYCLE 25 and beyond
+%
+%    Version 2.1; November 2018
+%
+%    Guidelines and assistance
+%    =========================
+%     Cycle 27 Announcement Web Page:
+%
+%         https://hst-docs.stsci.edu/ 
+%
+%    Please contact the STScI Help Desk if you need assistance with any
+%    aspect of proposing for and using HST. Either send e-mail to
+%    help@stsci.edu, or call 1-800-544-8125; from outside the United
+%    States, call [1] 410-338-1082.
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The template begins here. Please do not modify the font size from 12 point.
+
+\documentclass[12pt]{article}
+\usepackage{phase1}
+
+\begin{document}
+\section{Title, Co-Is, etc.}
+\textbf{This information will go into the form, the pdf itself must be anonymous. I'm just collecting it here so we have it all in one place for now.}
+
+\textbf{Title:} A pure-parallel search for faint stuff in star forming regions (acronym: PPS-FS-SF)
+
+\pagebreak
+%   1. SCIENTIFIC JUSTIFICATION
+%       (See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
+%
+%
+\justification          % Do not delete this command.
+% Enter your scientific justification here. 
+Stars and planetary systems continue to form in our Milky Way today. Images of these star forming regions are among the most spectacular images ever taken by the Hubble Space Telescope (HST). Star forming regions contain structure over a large range of scales. The clouds themselves are typically several parsecs across; in each cloud dozens to thousands of stars form. They collapse into proto-stars which are still deeply embedded into a dusty envelope and can be seen only in the sub-mm and IR; infall onto those protostars happens though a circumstellar disk and these early objects often also drive powerful jets that propagate through the envelope and pierce the cloud. Once the envelope depletes, the stars become visible in the optical, but accretion from the disk continues. At the same time, grains in the disks coagulate into planets. 
+
+Most stars have low-masses and late spectral types and in low-mass star forming regions the most massive object might be a G-type star. In these regions, jets are supposed to be weak and are not supposed to to have the power to propagate through the cloud material for long distances. High-resolution images are usually taken around objects known to be ``interesting'' and that biases our understanding, for example, we know that jet emission is time variable, yet imaging to detect jets is done mostly on objects with known outflows today. A blind survey of random patches in a star forming cloud could tell us which fraction of the area or volume has outflow material propagating though it - an important check for models that try to predict if the injected turbulence is sufficient to disperse the cloud.
+
+In high-mass star forming regions, irradiation by the more massive and much brighter members of the cluster has the potential to change the ionization balance of the cloud significantly; the bright stars also eject more powerful winds and outflows and they can photo-evaporate the disks of the surrounding stars. Again, high-resolution imaging tends to concentrate on the brightest and most active stars and thus does not give an honest picture of the typical conditions in the star forming regions.
+
+
+
+2005ApJ...631L.159R Constraining the Distribution of L and T Dwarfs in the Galaxy
+
+2013MNRAS.433.2226R HST/WFC3 imaging of protostellar jets in Carina: [Fe II] emission tracing massive jets from intermediate-mass protostars
+
+
+Star forming regions are studied in a wide range of wavelengths from the X-rays to the radio with surveys spanning hundreds of square degrees down to high-resolution spectroscopy of individual objects. Typically, the large scale surveys are used to identify individual jets or stars to be studied in more detail. However, there is a crucial gap in this procedure: Large-area surveys usually do not have the spatial resolution to detect faint emission close to brighter sources (e.g. lower-mass companions or small jets) and do not go deep enough to detect the faint features, in particular if they are specially extended. \textbf{We propose a blind survey of star forming regions as a pure-parallel observation program to close this gap.}
+
+
+
+
+In a request for 100 pure-parallel obits we will sample about 0.3 sq deg of star forming cloud. This is several orders of magnitude less than the large \emph{Spitzer} surveys of star forming regions, but it will still be the largest dataset available with the superb spatial resolution that HST offers and the number of filters we plan to use. Ground-based based surveys are typically only done in broad-band filters (IPHAS REF HERE, which includes also an H$\alpha$ filter is the exception) and without adaptive optics, thus the space-based \emph{HST} images that we will obtain will be superior in spatial resolution, depth, and coverage of spectral features.
+
+Since this request is for a pure-parallel program, where we do not specify targets, but piggy-back onto observations of targets in star forming regions which are done with SITS or COS for other programs, this survey will cost zero primary HST orbits. The downside is that we cannot know a-priory how many disks, outflows or cloud feature we will image and how many low-mass stars we will find. If the primary targets are in dense star forming regions such as the Orion Nebula Cloud or Carina, we are virtually guaranteed to see several young stars, cloud structures, disks and outflows for any target location; on the other hand, if the primary targets are in close-by low-density star forming regions such as Taurus, we may find some field to devoid of cluster members.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   2. DESCRIPTION OF THE OBSERVATIONS
+%       (See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
+%
+%
+\describeobservations   % Do not delete this command.
+% Enter your observing description here.
+We are requesting observations in pure parallel mode, meaning that our images will be taken when some other program uses COS or STIS are prime instruments and happens to look at a star forming region. Thanks to the ULLYSES program, we know that a few dozen orbits of spectroscopic data will be taken in star forming regions, in addition to any GO programs for spectroscopy of young stars that may be approved in this cycle by the TAC. In Phase II, STScI will generate a list of such primary orbits, which may be suitable for the execution of the observations we propose for here, but as a pure-parallel program, we have no influence over the setup of those observations. That means that the exact pointing, orientation and number of dither positions will be determined by the primary science program. Thus, we describe a general set-up of the observations here, but details will have to be adjusted in Phase II.
+
+To reach our science objectives, we request to obtain images in two broadband (SDSS $r'$ and $i'$) and two narrow-band filters (H$\alpha$ and an oxygen line). In high-mass star forming regions, [O~{\sc iii}] isa good tracer of hot nebular gas, but in low-mass star forming regions, [O~{\sc iii}] 5007\AA{} is weak or absent. The WFC3 has an [O~{\sc i}] 6300\AA{} filter, while the ACS/WFC does not and we propose to use the [O~{\sc i}] 6300\AA{} filter with the WFC3 for targets in low-mass star forming regions. Table~\ref{tab:setup} summarizes the filters to be used.
+For a typical usable orbit time of about 2800~s after acquisition, we can take one exposure of 540~s in each filter. Once we know the exact duration of the orbit (which depends on the position and roll angle specified by the primary target), we will optimize the exposure times to reduce the time lost to buffer dumps and filter changes.
+
+If we have only one orbit with a specific pointing, we will perform imaging with the WFC3 because it is located closer to the STIS or COS FOV. In a star forming region, a STIS or COS observation is most likely centered on a bright, active star and thus observing closer to it increases the chances to find irradiated cloud or outflow features. 
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{c|ccc}
+    \hline\hline
+           & WFC3 & WFC3 & ACS/WFC \\
+        star forming region & high-mass & low-mass & any\\
+        \hline
+        SDSS $r'$ & F625W & F625W & F625W \\
+        SDSS $i'$ & F775W & F775W & F775W\\
+        H$\alpha$ & F656N & F656N & F658N\\{}
+        [O~{\sc iii}] 5007\AA{} & F502N & -- & F502N\\{}
+        [O~{\sc i}] 6300\AA{}& -- & F631N & -- \\
+        \hline
+    \end{tabular}
+    \caption{Filters to be used for observations in high and low-mass star forming regions.}
+    \label{tab:setup}
+\end{table}
+
+
+Commonly, spectroscopic observations last for more than one orbit and thus it is likely that we will have access to more than one parallel orbit with almost the same pointing. In this case, we will use the second orbit for observations with ACS/WFC (see table~\ref{tab:setup}). ACS has a FOV a few arcmin away from WFC3. Should more than two orbits be available with the same pointing, we will repeat the WFC3 and ACS observations to detect fainter features and to take advantage of multiple dither positions (if the primary observation dithers) and to obtain more exposures in each filter to help with cosmic ray rejection. 
+
+We looked at STIS and COS observations in star forming regions as well as previous pure-parallel programs in the archive and find that it is not uncommon to have 5-10 orbits with very similar pointings; which would give us a summed exposure time of about one orbit per filter. For longer observations, HST will often observe the primary target at different roll angles and thus WFC3 and ACS will see a different area on the sky even if the primary program observes the same target for a large number of orbits. Adding up the FOV for WFC and ACS, we think that with a request of 100 pure parallel orbits we will sample 300-400 sq arcmin deg of star forming region (assuming on average 3-5 orbits with the same pointing) - not a large area, but since this is a pure parallel program it does not cost any primary orbits to perform such a survey.
+
+Just to give some examples for our sensitivity: In a single orbit (exposure 540~s in each filter), we can detect an M7 star in a close star forming region (130~pc) or an M2 at 0.5~kpc; sources like this should also be part of 2MASS, giving us fluxes in five colors so that we can fit the spectral type, extinction, and check for the presence of a disk in the spectral energy distribution (SED) CITE ROBITAILLE et all models.
+See the figures in the text above for examples of resolved cloud or jet emission features that were found in observations comparable to what we propose here.
+
+Note that this is a request for a blind survey. Since the targets of the primary observations are not known, we do not know what number of features we will find. Obviously, more observing times will allow us to cover a larger area or go deeper (depending on the distribution of targets for the primary observations). At the same time, this program is still useful if only a smaller number than the requested 100 orbits is granted or available; in this case we will simply survey a smaller area (or not as deep, depending on the distribution of primary targets).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3. SPECIAL REQUIREMENTS
+%       (See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
+%
+%
+\specialreq             % Do not delete this command.
+% Justify your special requirements here, if any.
+None.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   4. COORDINATED OBSERVATIONS
+%       ((See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
+%
+%
+\coordinatedobs          % Do not delete this command.
+% Enter your coordinated observing plans here, if any.
+None.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   5. JUSTIFY DUPLICATIONS
+%       (See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
+%
+%
+\duplications           % Do not delete this command.
+% Enter your duplication justifications here, if any.
+If a region on the sky that would we available to this program has been observe before with these or similar filters, the new observations still add additional data to look for fainter objects, or, for brighter objects, to study their proper motion (e.g\ the expansion of a gas bubble or the motion of a know in a jet).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}          % End of proposal. Do not delete this line.
+                        % Everything after this command is ignored.
