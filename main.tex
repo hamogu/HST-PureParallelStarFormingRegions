@@ -36,31 +36,15 @@
 %\bibpunct{(}{)}{;}{a}{}{,}
 
 \begin{document}
-\section*{Title, Co-Is, etc.}
-\textbf{This information will go into the form, the pdf itself must be anonymous. I'm just collecting it here so we have it all in one place for now.}
 
-\textbf{Title:} A pure-parallel search for faint stuff in star forming regions
-(acronym: PPS-FS-SF)
-
-\textbf{Please list Co-I Name, Institution, email address, so I can copy it in the form:}
-\noindent
-Carlo F. Manara, ESO, cmanara@eso.org \\
-Ana I Gomez de Castro, Universidad Complutense de Madrid, aig@ucm.es\\
-Francesca Bacciotti, INAF- Osservatorio Astrofisico di Arcetri, fran@arcetri.astro.it\\
-
-\vspace{3cm}
-Please don't be shy to edit this directly - it's easier for you and me this way and if it turns out later that we want to change it back, I can get old versions back through git.
-
-\pagebreak
 %   1. SCIENTIFIC JUSTIFICATION
 %       (See https://hst-docs.stsci.edu/display/HSP/HST+Cycle+27+Preparation+of+the+PDF+Attachment)
 %
 %
 \justification          % Do not delete this command.
 % Enter your scientific justification here. 
-Stars and planetary systems continue to form in our Milky Way today. High resolution imaging of star forming regions provides unique information on the rich phenomenology that characterize these regions and has produced some of the most spectacular images ever taken by
-the Hubble Space Telescope (HST) (e.g.\ Fig.~\ref{fig:reiter}). Star forming
-regions contain structures over a large range of scales. 
+Stars and planetary systems continue to form in our Milky Way today. High resolution imaging of star forming regions provides unique information on the rich phenomenology that characterizes these regions and has produced some of the most spectacular images ever taken by
+the Hubble Space Telescope (HST, e.g.\ Fig.~\ref{fig:reiter}).
 When cloud fragments start to collapse into protostars, they are still deeply
 embedded into a dusty envelope and can be seen only in the sub-mm and far-IR (class
 0 sources). Because angular momentum is conserved, infall does not happen
@@ -74,7 +58,7 @@ evaporation, one ends up with a planetary system around a young, active star
 (class III sources). For late-type stars, this evolutionary process takes several Myrs,
 while massive stars can go through a similar sequence much faster, meaning that
 they are typically still surrounded by dense cloud material when they reach the main-sequence.
-While the unresolved central objects can be studied from the spectral energy distribution,
+The unresolved central objects can be studied from the spectral energy distribution, but
 high-resolution imaging from facilities like e.g. ALMA and -in this case- HST  is critical to understand how disks, jets, and the remaining envelope
 look like, evolve and interact each other (see Fig.~\ref{fig:krist}, \ref{fig:reiter},  \ref{fig:ONCACS}).
 
@@ -106,7 +90,7 @@ the Orion Nebula Cloud, \citealt{2008AJ....135..693W} for RCW 108) and
 several lower-mass star forming regions
 (e.g.\ \citealt{2018AJ....155..241W} for Serpens, \citealt{2012AJ....144..101G}
 for IRAS 20050+2720, \citealt{2007A&A...468..353G} for the Taurus Molecular
-Cloud, using \emph{XMM-Newton} because of its larger field-of-view).  
+Cloud, using \emph{XMM-Newton} because of its larger field-of-view), but sub-arcsecond, wide-field surveys in te optical are rare.
 In the IR, essentially
 all star forming regions have been looked at with \emph{Spitzer} with a resolution between 1 and 2 arcsec
 (e.g.\ \citealt{2009ApJS..184...18G} surveyed all star forming regions within 1
@@ -132,24 +116,23 @@ They are among the most interesting ones in star forming regions:
 Irradiation by hot and bright massive stars, disk evaporation, stellar winds,
 jet emission and shock fronts in the cloud material. Only the most energetic
 processes (supernova explosions, O star winds) reach temperatures that can be seen as a faint
-X-ray continuum emission (Fig.~\ref{fig:reiter}, right). The low signal means that generally they 
+X-ray continuum emission (Fig.~\ref{fig:reiter}, right). The weak signal means that generally they 
 cannot be studied at high spatial resolution.
 
 Radio observations are also well-suited to survey large regions on the sky and to
 trace wide-angle molecular outflows \citep[e.g.][]{2003MNRAS.341..707C} but
-they miss the faster, more collimated and energetic outflow components which originate
-deeper in the gravitational potential, i.e.\ closer to the proto-star
-\citep{2003ApJ...590L.107A}.
+they miss the faster, more collimated and energetic outflow components which, according to \citep{2003ApJ...590L.107A}, originate
+deeper in the gravitational potential, i.e.\ closer to the proto-star.
 
 
 \section{Immediate objectives}
-We propose a serendipitous, pure-parallel imaging survey of star forming regions in the Milky Way utilizing the superb PSF and photometric stability of the WFC3 and ACS/WFC. The survey will use a combination of broad-band and narrow-band filters. Such a survey can contribute to any study using SEDs of point sources or looking at resolved structure, bit it will address the following science questions in particular.
-In addition to the science, there is also the potential for exceptional and stunning images to be released to the public.
+We propose a serendipitous, pure-parallel imaging survey of star forming regions in the Milky Way utilizing the superb PSF and photometric stability of the WFC3 and ACS/WFC. The survey will use a combination of broad-band and narrow-band filters and some of the resulting images may be well suited to feature HST in the public.
+Scientifically, such a survey can contribute to any study using SEDs of point sources or looking at resolved structure, but the following science questions will be addressed in detail.
 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{ONCACS.png}
-    \caption{Examples of different objects detected in an ACS survey of the Orion Nebula Cloud by \citet{2008AJ....136.2136R}, each column shows one object in two different filters (\emph{top}: F775W is SDSS $i'$, \emph{bottom}: F658N covers the H$\alpha$ line). For each category, two objects are shown. Note how some features stand out in the emission line, while others are visible in the broad-band.}
+    \caption{Examples of different objects detected in an ACS survey of the Orion Nebula Cloud by \citet{2008AJ....136.2136R}, each column shows one object in two different filters (\emph{top}: F775W = SDSS $i'$, \emph{bottom}: F658N = H$\alpha$). For each category, two objects are shown. Note how some features stand out better in the emission line, while others are visible in the broad-band.}
     \label{fig:ONCACS}
 \end{figure}
 
@@ -174,12 +157,12 @@ imaging to identify the jet source or to image their internal structure.
 
 
 \subsection{Knots in jets}
-Jets are not homogeneous but show knots, internal working surfaces, and termination shocks (Fig.~\ref{fig:reiter}, left). These can be due to mass-ejection events in the past, and, since mass ejection and accretion are related, contain a fossil archive of previous accretion rates \citep{2014A&A...563A..87E}. However, as knots move away from the source, they become fainter. If jet emission switches on an off in a source, there may be no indication of a jet seen in the star today; thus surveys looking for jets would not target those sources, however, fossil records of previous jet event may still be out there in the form of faint emission regions, at some distance form the source. HST imaging in a blind search in H$\alpha$ and [O~{\sc i}] is a promising way to find those features. This is actually easier in low-mass star forming regions where the source density is lower and thus the likely jet source can be identified, even if emission is not seen close to it.
+Jets are not homogeneous but show knots, internal working surfaces, and termination shocks (Fig.~\ref{fig:reiter}, left). These can be due to mass-ejection events in the past, and, since mass ejection and accretion are related, contain a fossil archive of previous accretion rates \citep{2014A&A...563A..87E}. As knots move away from the source, they become fainter. If jet emission switches on an off in a source, there may be no indication of a jet seen in the star today; thus surveys looking for jets would not target those sources, however, fossil records of previous jet event may still be out there in the form of faint emission regions, at some distance from the source. HST imaging in a blind search in H$\alpha$ and [O~{\sc i}] is a promising way to find those features. This is actually easier in low-mass star forming regions where the source density is lower and thus the likely jet source can be identified, even if emission is not seen close to it.
 
 \subsection{Disk evolution and evaporation}
 
 
-Theoretically, we expect that the lifetimes of disks depend strongly on the formation environment, where massive stars in dense clusters should evaporated disks within a Myrs or so and close encounters can strip additional material from the disks \citep[e.g.][]{2004ApJ...611..360A,2019MNRAS.485.1489W,2019arXiv190211094N} but there are recent indications that external photo-evaporation can be important even in low-mass star forming regions \citep{2017MNRAS.468L.108H}.
+Theoretically, we expect that the lifetimes of disks depend strongly on the formation environment, where massive stars in dense clusters should evaporate disks within a Myrs or so and close encounters can strip additional material from the disks \citep[e.g.][]{2004ApJ...611..360A,2019MNRAS.485.1489W,2019arXiv190211094N} but there are recent indications that external photo-evaporation can be important even in low-mass star forming regions \citep{2017MNRAS.468L.108H}.
 There are two ways to study this observationally: Look how disk properties in a massive cluster change with distance from the most massive members \citep{2014ApJ...784...82M,2017AJ....153..240A,2018ApJ...860...77E}, or compare clusters of different mass. Our proposed study can help with both (see disks in absorption and evaporating disks in Fig.~\ref{fig:ONCACS} for examples how this might look), giving us high-resolution observations of low-mass star forming regions where normally one would not invest much time on a blind survey to find disks in imaging, and images of massive clusters, a little further away from the objects usually studied. Extinction measurements will also provide a 3-D view of the matter distribution on the front edge of the cloud, enabling a more accurate determination of the actual photon flux irradiating the disks. 
 
 Understanding external photoevaporation is also important for the history of the solar systems and the formation of our Earth \citep{2015ApJ...815..112K}.
@@ -192,7 +175,7 @@ For close-in binaries, the companion will obviously change the evolution of the 
 For all these reasons, we need to identify more systems with companions. One of
 the best methods to do that is imaging from space in $R$ or $I$ or the near-IR where the contrast between the primary and a lower mass secondary is less extreme than in, e.g.\ the $V$ band. 
 
-\citet{2001A&A...379..147D} find about 20\% of their sample in the young
+\citet{2001A&A...379..147D} find that about 20\% of their sample in the young
 cluster NGC 6611 have a companion in the range 200-3000~au, where the companion
 has at least a tenth of the mass of the primary. With HST's sub-arcsecond PSF,
 we can detect a K8 companion at 200~au distance from a moderately bright
@@ -208,7 +191,7 @@ arcminutes away from the primary spectroscopic target. Thanks to ULYSSES, an
 initiative using 500-1000 orbits of director's time for UV spectroscopy of
 young stars over the next three years, we know that a large number of orbits
 will be allocated to spectroscopic targets in star forming regions in addition
-to what the TAC recommends. This is an unprecedented opportunity to allocate a significant number of orbits to a deep and wide survey of serendipitous features in star forming regions; in other cycles, there are simply not be enough primary orbits available to schedule a parallel program long enough to sample significant area.
+to what the TAC recommends. This is an unprecedented opportunity to allocate a significant number of orbits to a deep and wide survey of serendipitous features in star forming regions; in other cycles, there are simply not enough primary orbits available to schedule a parallel program long enough to sample significant area.
 
 For the primary
 \emph{HST} observations, observers often choose ``special'' locations,
@@ -220,7 +203,7 @@ of sources is found) biases a study towards effects of dense
 environments. While our pointings will not be truly randomly distributed, they
 will cover a range of star forming environments in different clusters that has
 not been studied with such high spatial resolution and such uniform filter
-coverage before. A true blind survey of large areas of star forming regions is prohibitively expensive; on the other hand, a pure-parallel survey like we suggest costs no primary orbits and also avoids smapling bias to a large degree.
+coverage before. A true blind survey of large areas of star forming regions is prohibitively expensive; on the other hand, a pure-parallel survey like we suggest costs no primary orbits and also avoids sampling bias to a large degree.
 
 Pure-parallel surveys have taken deep images in star forming regions before and
 have been used for extragalactic astronomy \citep{2007A&A...468..823S} but also
@@ -230,12 +213,12 @@ science from deep high-resolution imaging beyond the science justification we
 lay out here. We analyzed some of this data and verified that structures of the
 molecular cloud are indeed visible in great detail; however, all those data are
 taken in wide filters only while we propose additional observations in narrow
-band filter which probe particular conditions in irradiated clouds, disks and
+band filters which probe particular conditions in irradiated clouds, disks and
 jets.
 
 
 \section{Estimating the yield of the proposed survey}
-Our proposed observing strategy is very similar to the atlas of protoplanetary disks in the Orion Nebula \citep{2008AJ....136.2136R,2013ApJS..207...10R}. Their survey covers about 450~arcmin$^2$ in $B$, $V$, H$\alpha$, $I$, and $z$ with average exposure times about 400~s. They detect about 3200 compact sources and 219 sources with circumstellar matter. The largest fraction of those (178) are externally ionized disk in emission; 36 disks are seen in extinction against the bright nebula in the background. Five objects show jets without an apparent disk (meaning that the disk is likely to be smaller because the objects are more evolved). Figure~\ref{fig:ONCACS} shows examples of these detections. 
+Our proposed observing strategy is very similar to the atlas of protoplanetary disks in the Orion Nebula \citep{2008AJ....136.2136R,2013ApJS..207...10R}. Their survey covers about 450~arcmin$^2$ in $B$, $V$, H$\alpha$, $I$, and $z$ with average exposure times of about 400~s. They detect about 3200 compact sources and 219 sources with circumstellar matter. The largest fraction of those (178) are externally ionized disk in emission; 36 disks are seen in extinction against the bright nebula in the background. Five objects show jets without an apparent disk (meaning that the disk is likely to be smaller because the objects are more evolved). Figure~\ref{fig:ONCACS} shows examples of these detections. 
 
 In a request for 100 pure-parallel obits we will sample about 0.3 sq deg of
 area in several star forming clouds, likely including both close-by low-mass
@@ -246,7 +229,7 @@ star forming regions and higher-mass star forming regions at a larger distance.
 %plan to use.
  Ground-based based surveys are typically only done in broad-band
 filters \citep[IPHAS, which also includes an H$\alpha$ filter is an
-  exception]{2005MNRAS.362..753D} and without adaptive optics, thus the
+  exception][]{2005MNRAS.362..753D} and without adaptive optics, thus the
 space-based \emph{HST} images that we will obtain will be superior in spatial
 resolution, depth, and coverage of spectral features.
 
@@ -272,10 +255,10 @@ fields devoid of cluster members, but probing regions usually ignored in current
 % Enter your observing description here.
 For pure-parallel programs such as ours, STScI will prepare lists of primary orbits, which may be suitable for the execution of the parallel observations. Since we will have no influence over the setup of those spectroscopic observations, the exact pointing, orientation and number of dither positions will be determined by the primary science program. Thus, we can only describe a general set-up of the observations, under the assumptions that the details will have to be adjusted in Phase II.
 
-Broad-band images will allow us to determine the SED of objects that may show IR excess with \emph{Spitzer} or X-ray activity with Chandra, allowing us to firmly identify and preliminary characterize a substantial number of pre-main-sequence objects. For objects that turn out to be single in our observations, we can combine the data in the two or three bands that we take with observations from all-sky surveys, such as GAIA. Even if we resolve a binary system, combining our resolved fluxes with unresolved photometry and additional information, such as the parallax (from GAIA), we can constrain masses and extinction for both components.
+Broad-band images will allow us to determine the SED of objects that may show IR excess with \emph{Spitzer} or X-ray activity with Chandra, allowing us to firmly identify and preliminary characterize a substantial number of pre-main-sequence objects. For objects that turn out to be single in our observations, we can combine the data in the two or three broad bands that we take with observations from all-sky surveys, such as GAIA. Even if we resolve a binary system, combining our resolved fluxes with unresolved photometry and additional information, such as the parallax (from GAIA), we can constrain masses and extinction for both components.
 
 Narrow band images trace instead the rich phenomenology typical of these regions. In particular, in 
-high-mass star forming regions, [O~{\sc iii}] is a good tracer of hot nebular gas, either radiatively or collisionally excited, whereas in low-mass star forming regions, [O~{\sc iii}] 5007\AA{} only traces shock excitation (jets and HH objects). The soft-UV flux typical of these regions supports the complex chemical networks typical of PDR regions, which includes [O~{\sc i}] emission from the photodissociation of water molecules. WFC3 has a larger choice of narrow-band filters, and, if we have the opportunity (see below) we propose to add observations in [O~{\sc i}] 6300\AA{} and two lines in the UV that are unique to \emph{HST}/WFC3 because they are inaccessible from the ground (Mg~{\sc ii} 2800\AA{} and [Ne~{\sc v}] 3426\AA{} as well as additional broad-band WFC2 $V$ images. In particular, Mg~{\sc ii} 2800\AA{} has been shown to be strong, even stronger than H$\alpha$ in jets from low-mass stars \citep{2007ApJ...663..350C}.
+high-mass star forming regions, [O~{\sc iii}] is a good tracer of hot nebular gas, either radiatively or collisionally excited, whereas in low-mass star forming regions, [O~{\sc iii}] 5007\AA{} only traces shock excitation (jets and HH objects). The soft-UV flux typical of these regions supports the complex chemical networks typical of PDR regions, which includes [O~{\sc i}] emission from the photodissociation of water molecules. WFC3 has a larger choice of narrow-band filters, and, if we have the opportunity (see below) we propose to add observations in [O~{\sc i}] 6300\AA{} and two lines in the UV that are unique to \emph{HST}/WFC3 because they are inaccessible from the ground (Mg~{\sc ii} 2800\AA{} and [Ne~{\sc v}] 3426\AA{}) as well as additional broad-band WFC2 $V$ images. In particular, Mg~{\sc ii} 2800\AA{} has been shown to be strong, even stronger than H$\alpha$ in jets from low-mass stars \citep{2007ApJ...663..350C}.
 
  Table~\ref{tab:setup} summarizes the filters to be used.
 For a typical usable orbit time of about 2800~s after acquisition, we can take exposures of different depth in the most suitable filters, determined by the brightness of the stars (estimated using e.g.\ the GAIA database) and morphological complexity of the diffuse medium. If we schedule four exposures of about 540~s per orbit, the buffer dump can be done while the next exposure is in progress, thus our default setup in table~\ref{tab:setup} plans for four filters per orbit. 
@@ -318,7 +301,7 @@ bands/filters & SDSS $r'$ (F625W) & SDSS $r'$ (F625W) &
               [O~{\sc i}] (F631N)\\
         \hline
     \end{tabular}
-    \caption{Default setup, using four filters per orbits, cycling through a sequence of different filters and WFC3 and ACS, if we have more than one orbit with a specific pointing. The setup for each orbit will be adjusted depending on the time available per orbit and the brightness of known stars and morphological complexity of the medium as far as known.}
+    \caption{Default setup, using four filters per orbit. For each target position, we observe with the WFC3 first, then the ACS, then the WFC3 again. If we have more than three orbits per target position, we will cycle through the sequence again. The setup for each orbit will be adjusted depending on the time available per orbit and the brightness of known stars and morphological complexity of the medium as far as known.}
     \label{tab:setup}
 \end{table}
 
@@ -327,12 +310,12 @@ it is typical for FUV spectroscopic observations to last for more than one orbit
 
 In general, if we have more than three orbits with the same pointing, we plan to repeat the cycle of three orbits (WFC3, ACS, and WFC3 with other filters) observations to detect fainter features and to take advantage of multiple dither positions (if the primary observation dithers); taking multiple exposures in each filter will also mitigate against cosmic rays. 
 
-We looked at STIS and COS observations in star forming regions as well as previous pure-parallel programs in the HST MAST archive. It turns out that it is not uncommon to have 5-10 orbits with very similar pointings. This would give us a total exposure time of several thousand seconds per filter. To achieve the longest integration times, HST may end up observing the primary spectroscopic targets at different roll angles. In this cae WFC3 and ACS will probe different areas on the sky, distributed over a circular corona centered on the primary target. Adding up the FOV for WFC and ACS andassuming on average 3-5 orbits with the same pointing, we estimate that with a request of 100 pure parallel orbits we will sample 300-400 sq. arcmin deg of star forming regions.%  - not a large area, but since this is a pure parallel program it does not cost any primary orbits to perform such a survey.
+We checked the HST archive for STIS and COS observations in star forming regions as well as previous pure-parallel programs. It turns out that it is not uncommon to have 5-10 orbits with very similar pointings. This would give us a total exposure time of over a thousand seconds per filter. To achieve the longest integration times, HST may end up observing the primary spectroscopic targets at different roll angles. In this case, WFC3 and ACS will probe different areas on the sky, distributed over a circular corona centered on the primary target. Adding up the FOV for WFC and ACS and assuming on average 3-5 orbits with the same pointing, we estimate that with a request of 100 pure parallel orbits we will sample 300-400 sq.\ arcmin deg of star forming regions.
 
-Just to give some examples for our sensitivity: In a single orbit (exposure 540~s in each filter), we can detect an M7 star in a close star forming region (130~pc) or an M2 at 0.5~kpc; sources like this should also be part of 2MASS, giving us fluxes in five colors so that we can fit the spectral type, extinction, and check for the presence of a disk in the spectral energy distribution (SED) \citep{2007ApJS..169..328R}.
+Just to give some examples for our sensitivity: In a single orbit (exposure 540~s in each filter), we can detect an M7 star in a close star forming region (130~pc) or an M2 at 0.5~kpc; sources like this should also be part of 2MASS, giving us fluxes in five colors so that we can fit the spectral type, extinction, and check for the presence of a disk in the spectral energy distribution \citep[SED, using models from][]{2007ApJS..169..328R}.
 See the figures in the text above for examples of resolved cloud or jet emission features that were found in observations comparable to what we propose here.
 
-Note that this is a request for a (mostly) blind survey. Since the targets of the primary observations are not known, we do not know what number of features we will find. Obviously, more observing times will allow us to cover a larger area or go deeper (depending on the distribution of targets for the primary observations). At the same time, this program is still useful if only a smaller number than the requested 100 orbits is granted or available; in this case we will simply survey a smaller area (or not as deep, depending on the distribution of primary targets).
+Note that this is a request for a (mostly) blind survey. Since the targets of the primary observations are not known, we do not know what number of features we will find. Obviously, more observing time will allow us to cover a larger area or go deeper (depending on the distribution of targets for the primary observations). At the same time, this program is still useful if only a smaller number than the requested 100 orbits is granted or available; in this case we will simply survey a smaller area (or not as deep, depending on the distribution of primary targets).
 
 \vspace{1mm}
 \noindent The ULLYSES announcement encourages pure-parallel programs that can be executed in parallel to the Director's Discretionary Time spectroscopy and we are responding to that announcement here.
@@ -366,7 +349,7 @@ None.
 %
 \duplications           % Do not delete this command.
 % Enter your duplication justifications here, if any.
-If a region on the sky that would we available to this program has been observe before with these or similar filters, the new observations still add additional data to look for fainter objects, or, for brighter objects, to study their proper motion (e.g\ the expansion of a gas bubble or the motion of a know in a jet).
+If a region on the sky that would we available to this program has been observe before with these or similar filters, the new observations still add additional data to look for fainter objects and to study proper motion in the field (e.g.\ the expansion of a gas bubble or the motion of a know in a jet).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliographystyle{aa} % style aa.bst
@@ -375,3 +358,8 @@ If a region on the sky that would we available to this program has been observe 
 
 \end{document}          % End of proposal. Do not delete this line.
                         % Everything after this command is ignored.
+Title: A pure-parallel search for faint stuff in star forming regions
+
+Abstract
+--------
+
